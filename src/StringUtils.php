@@ -1,6 +1,8 @@
 <?php
 
 namespace App\StringUtils;
+require_once __DIR__ . '/../vendor/autoload.php';
+use Funct\Collection;
 
 function capitalize($text)
 {
@@ -8,3 +10,6 @@ function capitalize($text)
     $restSubstring = substr($text, 1);
     return "{$firstSymbol}{$restSubstring}";
 }
+
+$result = Collection\firstN([1, 2, 3]);
+print_r($result);
