@@ -1,0 +1,21 @@
+{
+    "name": "marre/hexlet-testing",
+    "type": "study-project",
+    "autoload": {
+        "files": [
+          "src/StringUtils.php"
+        ],
+        "psr-4": {
+            "Marre\\HexletTesting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Pokhiliuk",
+            "email": "timtimoha@yandex.ru"
+        }
+    ],
+    "require": {
+        "webmozart/assert": "^1.11"
+    }
+}
